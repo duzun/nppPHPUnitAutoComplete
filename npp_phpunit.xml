@@ -1,0 +1,709 @@
+<KeyWord name="assertArrayHasKey" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed key"/>
+		<Param name="array|ArrayAccess array"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertArrayNotHasKey" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed key"/>
+		<Param name="array|ArrayAccess array"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeContains" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed needle"/>
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean ignoreCase=false]"/>
+		<Param name="[boolean checkForObjectIdentity=true]"/>
+		<Param name="[boolean checkForNonObjectIdentity=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeContainsOnly" func="yes">
+	<Overload retVal="void">
+		<Param name="string type"/>
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[boolean isNativeType=null]"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeCount" func="yes">
+	<Overload retVal="void">
+		<Param name="integer expectedCount"/>
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeEmpty" func="yes">
+	<Overload retVal="void">
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="string actualClassOrObject"/>
+		<Param name="[string message='']"/>
+		<Param name="[float delta=0.0]"/>
+		<Param name="[integer maxDepth=10]"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeGreaterThan" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="string actualClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeGreaterThanOrEqual" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="string actualClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeInstanceOf" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="string attributeName"/>
+		<Param name="mixed classOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeInternalType" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="string attributeName"/>
+		<Param name="mixed classOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeLessThan" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="string actualClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeLessThanOrEqual" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="string actualClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotContains" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed needle"/>
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean ignoreCase=false]"/>
+		<Param name="[boolean checkForObjectIdentity=true]"/>
+		<Param name="[boolean checkForNonObjectIdentity=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotContainsOnly" func="yes">
+	<Overload retVal="void">
+		<Param name="string type"/>
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[boolean isNativeType=null]"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotCount" func="yes">
+	<Overload retVal="void">
+		<Param name="integer expectedCount"/>
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotEmpty" func="yes">
+	<Overload retVal="void">
+		<Param name="string haystackAttributeName"/>
+		<Param name="mixed haystackClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="string actualClassOrObject"/>
+		<Param name="[string message='']"/>
+		<Param name="[float delta=0.0]"/>
+		<Param name="[integer maxDepth=10]"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotInstanceOf" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="string attributeName"/>
+		<Param name="mixed classOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotInternalType" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="string attributeName"/>
+		<Param name="mixed classOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeNotSame" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="object actualClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertAttributeSame" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="string actualAttributeName"/>
+		<Param name="object actualClassOrObject"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertClassHasAttribute" func="yes">
+	<Overload retVal="void">
+		<Param name="string attributeName"/>
+		<Param name="string className"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertClassHasStaticAttribute" func="yes">
+	<Overload retVal="void">
+		<Param name="string attributeName"/>
+		<Param name="string className"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertClassNotHasAttribute" func="yes">
+	<Overload retVal="void">
+		<Param name="string attributeName"/>
+		<Param name="string className"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertClassNotHasStaticAttribute" func="yes">
+	<Overload retVal="void">
+		<Param name="string attributeName"/>
+		<Param name="string className"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertContains" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed needle"/>
+		<Param name="mixed haystack"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean ignoreCase=false]"/>
+		<Param name="[boolean checkForObjectIdentity=true]"/>
+		<Param name="[boolean checkForNonObjectIdentity=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertContainsOnly" func="yes">
+	<Overload retVal="void">
+		<Param name="string type"/>
+		<Param name="mixed haystack"/>
+		<Param name="[boolean isNativeType=null]"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertContainsOnlyInstancesOf" func="yes">
+	<Overload retVal="void">
+		<Param name="string classname"/>
+		<Param name="array|Traversable haystack"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertCount" func="yes">
+	<Overload retVal="void">
+		<Param name="integer expectedCount"/>
+		<Param name="mixed haystack"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertEmpty" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertEqualXMLStructure" func="yes">
+	<Overload retVal="void">
+		<Param name="DOMElement expectedElement"/>
+		<Param name="DOMElement actualElement"/>
+		<Param name="[boolean checkAttributes=false]"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[float delta=0.0]"/>
+		<Param name="[integer maxDepth=10]"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotTrue" func="yes">
+	<Overload retVal="void">
+		<Param name="boolean condition"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertFalse" func="yes">
+	<Overload retVal="void">
+		<Param name="boolean condition"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertFileEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="string actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertFileExists" func="yes">
+	<Overload retVal="void">
+		<Param name="string filename"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertFileNotEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="string actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertFileNotExists" func="yes">
+	<Overload retVal="void">
+		<Param name="string filename"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertGreaterThan" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertGreaterThanOrEqual" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertInstanceOf" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertInternalType" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJson" func="yes">
+	<Overload retVal="void">
+		<Param name="string filename"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJsonFileEqualsJsonFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualFile"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJsonFileNotEqualsJsonFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualFile"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJsonStringEqualsJsonFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualJson"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJsonStringEqualsJsonString" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedJson"/>
+		<Param name="string actualJson"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJsonStringNotEqualsJsonFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualJson"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertJsonStringNotEqualsJsonString" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedJson"/>
+		<Param name="string actualJson"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertLessThan" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertLessThanOrEqual" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotContains" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed needle"/>
+		<Param name="mixed haystack"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean ignoreCase=false]"/>
+		<Param name="[boolean checkForObjectIdentity=true]"/>
+		<Param name="[boolean checkForNonObjectIdentity=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotContainsOnly" func="yes">
+	<Overload retVal="void">
+		<Param name="string type"/>
+		<Param name="mixed haystack"/>
+		<Param name="[boolean isNativeType=null]"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotCount" func="yes">
+	<Overload retVal="void">
+		<Param name="integer expectedCount"/>
+		<Param name="mixed haystack"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotEmpty" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[float delta=0.0]"/>
+		<Param name="[integer maxDepth=10]"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotInstanceOf" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotInternalType" func="yes">
+	<Overload retVal="void">
+		<Param name="string expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotFalse" func="yes">
+	<Overload retVal="void">
+		<Param name="boolean condition"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotNull" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotRegExp" func="yes">
+	<Overload retVal="void">
+		<Param name="string pattern"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotSame" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotSameSize" func="yes">
+	<Overload retVal="void">
+		<Param name="array|Countable|Traversable expected"/>
+		<Param name="array|Countable|Traversable actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNotTag" func="yes">
+	<Overload retVal="void">
+		<Param name="array matcher"/>
+		<Param name="string actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean isHtml=true]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertNull" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertObjectHasAttribute" func="yes">
+	<Overload retVal="void">
+		<Param name="string attributeName"/>
+		<Param name="object object"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertObjectNotHasAttribute" func="yes">
+	<Overload retVal="void">
+		<Param name="string attributeName"/>
+		<Param name="object object"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertRegExp" func="yes">
+	<Overload retVal="void">
+		<Param name="string pattern"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertSame" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed expected"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertSameSize" func="yes">
+	<Overload retVal="void">
+		<Param name="array|Countable|Traversable expected"/>
+		<Param name="array|Countable|Traversable actual"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertSelectCount" func="yes">
+	<Overload retVal="void">
+		<Param name="array selector"/>
+		<Param name="integer count"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean isHtml=true]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertSelectEquals" func="yes">
+	<Overload retVal="void">
+		<Param name="array selector"/>
+		<Param name="string content"/>
+		<Param name="integer count"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean isHtml=true]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertSelectRegExp" func="yes">
+	<Overload retVal="void">
+		<Param name="array selector"/>
+		<Param name="string pattern"/>
+		<Param name="integer count"/>
+		<Param name="mixed actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean isHtml=true]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringEndsNotWith" func="yes">
+	<Overload retVal="void">
+		<Param name="string suffix"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringEndsWith" func="yes">
+	<Overload retVal="void">
+		<Param name="string suffix"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringEqualsFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualString"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringMatchesFormat" func="yes">
+	<Overload retVal="void">
+		<Param name="string format"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringMatchesFormatFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string formatFile"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringNotEqualsFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualString"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean canonicalize=false]"/>
+		<Param name="[boolean ignoreCase=false]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringNotMatchesFormat" func="yes">
+	<Overload retVal="void">
+		<Param name="string format"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringNotMatchesFormatFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string formatFile"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringStartsNotWith" func="yes">
+	<Overload retVal="void">
+		<Param name="string prefix"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertStringStartsWith" func="yes">
+	<Overload retVal="void">
+		<Param name="string prefix"/>
+		<Param name="string string"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertTag" func="yes">
+	<Overload retVal="void">
+		<Param name="array matcher"/>
+		<Param name="string actual"/>
+		<Param name="[string message='']"/>
+		<Param name="[boolean isHtml=true]"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertThat" func="yes">
+	<Overload retVal="void">
+		<Param name="mixed value"/>
+		<Param name="PHPUnit_Framework_Constraint constraint"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertTrue" func="yes">
+	<Overload retVal="void">
+		<Param name="boolean condition"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertXmlFileEqualsXmlFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualFile"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertXmlFileNotEqualsXmlFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualFile"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertXmlStringEqualsXmlFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualXml"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertXmlStringEqualsXmlString" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedXml"/>
+		<Param name="string actualXml"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertXmlStringNotEqualsXmlFile" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedFile"/>
+		<Param name="string actualXml"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
+<KeyWord name="assertXmlStringNotEqualsXmlString" func="yes">
+	<Overload retVal="void">
+		<Param name="string expectedXml"/>
+		<Param name="string actualXml"/>
+		<Param name="[string message='']"/>
+	</Overload>
+</KeyWord>
